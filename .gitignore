@@ -1,0 +1,43 @@
+# API Keys & Secrets
+.env
+*.env
+.env.*
+secrets.toml
+*.secrets.toml
+**/.streamlit/secrets.toml
+.streamlit/secrets.toml
+
+# Virtual Environments
+venv/
+**/venv/
+.venv/
+**/.venv/
+env/
+**/env/
+
+# Python Cache & Bytecode
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# OS-Specific Files
+.DS_Store
+**/.DS_Store
+Icon
+Icon?
+Thumbs.db
+
+# IDE & Editor Settings
+.vscode/
+**/.vscode/
+.idea/
+**/.idea/
+
+# Local Vector DB & Runtime Logs
+faiss_index/
+**/faiss_index/
+*.log
+chat_history_*.txt
+**/chat_history_*.txt
